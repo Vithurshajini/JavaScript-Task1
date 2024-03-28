@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3; 
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(92, 62, 99, 0.7);
+    border-radius: 10px;
+    text-align:center;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #383737;
+    border-radius: 5px;
+    margin-left: 600px;
+    margin-top: 30px;
+    background-color: #969da3;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #c1cad3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#outputContainer {
+    margin-top: 20px;
+    text-align:center;
+}
+
+#storedData,
+#sortedData {
+    margin-top: 10px;
+    text-align: center;
+    text-decoration-color: #969da3;
+}
+
+#filteredResults,
+#validationResult,#output, #format1, #format2, #storedData, #sortedData {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#Grade {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#textBoxContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left:5px;
+    width: 65%;
+}
+
+#textBox {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #3c3b3b;
+    border-radius: 5px;
+    margin-left: 600px;
+    margin-top: 30px;
+    width: 50%;
+    background-color: #969da3;
+}
+
+#textBoxContainer button {
+    padding: 10px 20px;
+    background-color: #c1cad3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#textBoxContainer button:hover {
+    background-color: #218838;
+}
