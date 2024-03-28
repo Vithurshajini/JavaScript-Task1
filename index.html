@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <p id="demo"></p>
+    <input type="date" id="dateInput">
+
+    <div id="format1"></div>
+    <div id="format2"></div>
+
+    <br><input type="text" id="textInput" placeholder="Enter text">
+    <button onclick="fd.storeAndDisplay()">Display</button><br>
+    <div id="output"></div>
+
+    <br><input type="number" id="marks" placeholder="Enter marks" > 
+
+    <button onclick="fd.calculateGrade()">Submit</button>
+
+    <div id="Grade"></div>
+
+    <div id="textBoxContainer">
+        <input type="text" id="textBox" placeholder="Enter text here">
+        <button onclick="fd.addToTextBoxValues()">+</button><br>
+    </div>
+    <div id="outputContainer">
+        <div id="storedData"></div>
+        <div id="sortedData"></div>
+    </div>
+
+    <input type="text" id="filterTextBox" placeholder="Enter text here">
+    <button onclick="fd.filterArrayByLetters()">Filter</button>
+    <div id="filteredResults"></div>
+
+    <input type="text" id="formatTextBox" placeholder="aBd1234@#123">
+    <button onclick="fd.validateInputFormat()">Validate</button><br>
+    <div id="validationResult"></div>
+
+</body>
+</html>
+
+    
